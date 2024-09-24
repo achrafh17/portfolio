@@ -1,0 +1,626 @@
+@media screen and (min-width: 767px) {
+  body {
+    margin: 0;
+    background-color: #101011;
+    height: 360vh;
+  }
+  nav {
+    display: flex;
+  }
+  .nav-container {
+    display: flex;
+    margin-left: 400px;
+    gap: 100px;
+    margin-top: 35px;
+  }
+  #my-name {
+    color: #71523d;
+    font-size: 47px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-left: 13vw;
+    cursor: pointer;
+  }
+
+  #items-nav {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  #items-nav:hover {
+    color: #71523d;
+    cursor: pointer;
+    transform: translateX(4px);
+    transition: 500ms;
+  }
+  #home-section {
+    display: flex;
+  }
+  .home-left-part {
+    width: 50vw;
+    margin-left: 13vw;
+  }
+  #hello {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 90px;
+    margin-bottom: -90px;
+    font-weight: 600;
+  }
+  #iam {
+    color: white;
+    font-family: sans-serif;
+    font-size: 80px;
+  }
+  #achraf {
+    font-weight: 700;
+  }
+  #about-me {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+    margin-top: -70px;
+  }
+  #my-picture {
+    width: 420px;
+    height: 420px;
+    border-radius: 100%;
+    margin-top: 70px;
+    margin-left: 100px;
+  }
+  .buttons-contact-projects {
+    display: flex;
+    gap: 20px;
+  }
+  #projects-button {
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+  }
+  #projects-inside-button {
+    color: black;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  #contact-button {
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+  }
+  #Contacts-inside-button {
+    color: black;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  #projects-button:hover,
+  #contact-button:hover {
+    background-color: #71523d;
+    transition: 600ms;
+    transform: scale(1.1);
+  }
+  #contact-button:hover #Contacts-inside-button {
+    color: white;
+  }
+  #projects-button:hover #projects-inside-button {
+    color: white;
+  }
+  .social-media-section {
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 130px;
+  }
+  .github-container {
+    width: 40px;
+    height: 40px;
+    background-color: #71523d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  #social-media-logo {
+    font-size: 25px;
+    color: white;
+  }
+  #social-media-line {
+    transform: rotate(90deg);
+    width: 60px;
+    background-color: white;
+    height: 4px;
+    margin-top: 45px;
+    margin-left: -12px;
+    border-radius: 20px;
+  }
+  .linked-in-conatainer {
+    width: 40px;
+    height: 40px;
+    background-color: #71523d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  .linked-in-conatainer:hover,
+  .github-container:hover {
+    transform: scale(1.1);
+    transition: 600ms;
+  }
+  #social-media-link:hover {
+    box-shadow: none;
+  }
+  #social-media-link {
+    box-shadow: none;
+    background: none;
+  }
+  /*projects -------------------------------------------------------------------*/
+  #projects-section {
+    width: 98vw;
+    height: 100vh;
+    margin-top: 200px;
+  }
+  #projects-section-projects {
+    color: #71523d;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+  #some-of-work {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -30px;
+  }
+  #hr-projects-section {
+    width: 380px;
+    text-align: center;
+    margin-top: -60px;
+    height: 5px;
+    background-color: #71523d;
+    border: none;
+  }
+
+  .my-projects-container {
+    margin-left: 10vw;
+    margin-top: 10vh;
+  }
+  .my-projects-container-top {
+    display: flex;
+    margin-left: 60px;
+  }
+  .coffe-shop-one-landing-page {
+    width: 500px;
+    height: 330px;
+    position: absolute;
+  }
+  #coffe-shop-one-image {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .projects-name-github {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .my-projects-container-top {
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    gap: 500px;
+  }
+  .projects-name-github {
+    display: flex;
+  }
+  #projects-name-under {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .logo-conatiner-github-share {
+    margin-left: 150px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  #the-github-logo-share-logo {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  #the-github-logo-share-logo:hover {
+    color: #71523d;
+    transform: scale(1.1);
+    transition: 400ms;
+  }
+  #projetcs-link-projects-section {
+    background: none;
+    box-shadow: none;
+  }
+  .coffe-shop-two-landing-page {
+    width: 500px;
+    height: 330px;
+    position: absolute;
+    margin-left: 600px;
+  }
+  .my-projects-container-bottom {
+    margin-top: 50vh;
+    margin-left: 60px;
+  }
+
+  .coffe-shop-one-landing-page:hover {
+    transform: scale(1.1);
+    transition: 800ms;
+  }
+  .coffe-shop-two-landing-page:hover {
+    transform: scale(1.1);
+    transition: 800ms;
+  }
+  .coffe-shop-two-landing-page,
+  .coffe-shop-one-landing-page {
+    cursor: pointer;
+  }
+  .cointact-me {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 30vw;
+  }
+  .communication-tools {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 25vw;
+  }
+  .mail-item {
+    display: flex;
+    gap: 20px;
+  }
+  #logo-contacts {
+    font-size: 50px;
+    color: #71523d;
+  }
+  #adresse-mail {
+    font-size: 40px;
+    margin-top: -0px;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+  }
+  #adresse-mail:hover {
+    color: #3d5271;
+    transition: 700ms;
+    transform: translateX(4px);
+  }
+  #phone-number {
+    font-size: 40px;
+    margin-top: -0px;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+  }
+  #phone-number:hover {
+    color: #3d5271;
+    transition: 700ms;
+    transform: translateX(4px);
+  }
+  .number-phone {
+    display: flex;
+    gap: 20px;
+  }
+  .linked-in-way {
+    display: flex;
+    gap: 20px;
+  }
+  #contacts-link {
+    text-decoration: none;
+    background: none;
+    box-shadow: none;
+  }
+  #hire-me {
+    position: absolute;
+    margin-top: 670px;
+    margin-left: 35vw;
+    width: 220px;
+    height: 50px;
+    background-color: #71523d;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
+  #hire-me-text {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+  }
+  #hire-me:hover {
+    transform: scale(0.9);
+    transition: 700ms;
+  }
+  /* nav bar link*/
+  #nav-bar-link {
+    background: none;
+    box-shadow: none;
+    text-decoration: none;
+  }
+}
+
+/*media query for mobile design------------------------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+  body {
+    background-color: #101011;
+    height: 400vh;
+  }
+  #my-name {
+    position: absolute;
+    color: #71523d;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    top: 0;
+    margin-left: 4vw;
+  }
+  .nav-container {
+    display: none;
+  }
+  .social-media-section {
+    display: none;
+  }
+  #my-picture {
+    position: absolute;
+    top: 130px;
+    width: 60vw;
+    border-radius: 100%;
+    margin-left: 17vw;
+  }
+  .home-left-part {
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 10vw;
+    width: 80vw;
+  }
+
+  #hello {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #achraf {
+    font-weight: 800;
+  }
+  #iam {
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: -50px;
+  }
+  #about-me {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: -40px;
+  }
+  .buttons-contact-projects {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  #projects-button {
+    width: 90vw;
+    height: 50px;
+    background-color: #71523d;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact-button {
+    width: 90vw;
+    height: 50px;
+    background-color: #71523d;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #projects-button:hover,
+  #contact-button:hover {
+    transform: scale(0.9);
+    transition: 400ms;
+  }
+  #projects-inside-button {
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  #Contacts-inside-button {
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  #projects-section {
+    margin-top: 130vh;
+    position: absolute;
+    width: 100vw;
+  }
+  #projects-section-projects {
+    color: #71523d;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  #some-of-work {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: -3vh;
+  }
+  #hr-projects-section {
+    width: 80vw;
+    height: 4px;
+    background-color: #71523d;
+    border: none;
+    border-radius: 20px;
+    margin-top: -40px;
+  }
+  .my-projects-container {
+    margin-top: 8vh;
+    width: 100vw;
+  }
+  .coffe-shop-one-landing-page,
+  .coffe-shop-two-landing-page {
+    margin-left: 10vw;
+    margin-top: 5vh;
+  }
+  .projects-name-github {
+    background-color: black;
+    width: 80vw;
+    height: 40px;
+    margin-top: -19px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  #projects-name-under {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-left: 3vw;
+  }
+  #coffe-shop-one-image {
+    width: 80vw;
+  }
+  .logo-conatiner-github-share {
+    margin-left: 62vw;
+    margin-top: -40px;
+    display: flex;
+    gap: 10px;
+  }
+  #the-github-logo-share-logo {
+    color: white;
+    font-size: 25px;
+  }
+  #the-github-logo-share-logo:hover {
+    color: #71523d;
+    transform: scale(0.9);
+    transition: 500ms;
+  }
+  #cointact-me {
+    position: absolute;
+    margin-top: 300vh;
+  }
+  .communication-tools {
+    position: absolute;
+    margin-top: 335vh;
+    width: 80vw;
+    margin-left: 4vw;
+  }
+  .mail-item {
+    display: flex;
+    gap: 20px;
+  }
+  #adresse-mail {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+    
+  }
+
+  .number-phone {
+    display: flex;
+    gap: 20px;
+  }
+  #logo-contacts {
+    color: #71523d;
+    font-size: 30px;
+  }
+  #phone-number {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: -0px;
+    margin-left: 10px;
+  }
+ #phone-number:hover , #adresse-mail:hover {
+    color: #3d5271;
+    transform: translateX(4px);
+    transition: 500ms;
+ }
+  .linked-in-way {
+    display: flex;
+    gap: 20px;
+  }
+  #contacts-link {
+    text-decoration: none;
+  }
+  #hire-me {
+    position: absolute;
+    margin-top: 364vh;
+    width: 50vw;
+    height: 50px;
+    margin-left: 25vw;
+    background-color: #71523d;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #hire-me:hover {
+    transform: scale(0.9);
+    transition: 500ms;
+  }
+  #hire-me-text {
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+}
